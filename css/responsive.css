@@ -1,0 +1,191 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .carousel-text h3 {
+        font-size: 39px;
+    }
+    .carousel-text p {
+        font-size: 15px;
+    }
+
+    .carousel-text a {
+        font-size: 15px;
+    }
+
+    .banner img {
+        height: 400px;
+    }
+
+    .carousel-item{
+        height: 400px;
+    }
+    .carousel .carousel-indicators button {
+        margin-bottom: 8%;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner-2 {
+        width: 100%;
+        height: 400px;
+        margin-top: 30px; 
+        padding: 26%;
+    }
+
+    .banner-2 h3 {
+        font-size: 39px;
+    }
+
+    .banner-2 p {
+        font-size: 15px;
+    }
+
+    .about-text {
+      text-align: center;
+      padding-left: 2% !important;
+   }
+
+   .mailbox-text {
+    padding-top: 45px;
+    padding-left: 4% !important;
+   }
+
+
+   .package-area-img{
+    visibility: hidden;
+}
+
+.package-right-img img{
+  visibility: hidden;
+}
+
+   .package-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f9f7ef !important;
+    width: 100% !important;
+}
+
+/* .package-text {
+  position: absolute;
+  top: 85px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  background: #000;
+  width: 100%;
+  height: 300px;
+} */
+
+
+.package-text h3 {
+  font-size: 25px;
+}
+
+.package-text p {
+  font-size: 15px;
+}
+
+.package-from {
+  background-color: #183650;
+  color: #FFFFFF;
+  width: 180px;
+  height: 39px;
+  padding: 10px;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  border: none;
+}
+
+.package-button {
+  height: 40px;
+  width: 65px;
+
+}
+.small-width1{
+  width: 85%;
+  height: 95px;
+}
+.small-width2{
+  width: 100%;
+}
+
+
+.footer-left{
+  text-align: center;
+}
+    
+.footer-from {
+  width: 260px;
+  height: 42px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  margin-right: -6px;
+  padding: 14px;
+}
+
+  }

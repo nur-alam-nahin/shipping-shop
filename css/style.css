@@ -69,7 +69,6 @@
     border: 1px solid  #FE0341;
     padding: 9px 25px;
     border-radius: 5px;
-    margin-left: 150px;
 }
 
 
@@ -80,13 +79,11 @@
 .nav-bg-color {
     background: #8AF3E3;
     width: 100%;
-    height: 95px;
     margin-top: 30px;
 }
 
 
 .logo img {
-    width: 100%;
     padding-right: 15px;
     padding-bottom: 7px;
 }
@@ -105,13 +102,12 @@
 }
 
 .nav-item ul li a{
-    
     text-decoration: none;
 }
 
 
 .navbar-nav {
-    margin-left: 609px;
+   
 }
 
 
@@ -131,14 +127,16 @@
 /* banner */
 
 
-.banner{
+.banner {
     position: relative;
     display: block;
+    width: 56%;
 }
 
 .banner img {
     width: 100%;
     height: 600px;
+    object-fit: cover;
 }
 
 .banner-carousel{
@@ -158,14 +156,14 @@
 
 
 .carousel-text {
-    padding-top: 100px;
-    padding-left: 95px;
+    padding: 11%;
+
 }
 
 
-.carousel-text h3{
+.carousel-text h3 {
     font-family: Open Sans;
-    font-size: 75px;
+    font-size: 4rem;
     font-weight: 700;
     color: #FFFFFF;
 }
@@ -204,13 +202,10 @@
 
 .banner-2 {
     background: #2E485C;
-    width: 100%;
+    width: 33%;
     height: 600px;
-    margin-left: 109px;
-    padding-top: 105px;
-    padding-left: 70px;
+    padding: 6%;
 }
-
 .banner-2 h3{
     font-family:  Open Sans;
     font-weight: 700;
@@ -235,8 +230,8 @@
 }
 
 .about-text {
-    
     padding-top: 60px;
+    padding-left: 8% !important;
 }
 
 .about-text h3 {
@@ -244,7 +239,6 @@
     font-weight: 700;
     color: #1B1D58;
     font-size: 45px;
-    padding-left: 88px;
 }
 
 .about-text p {
@@ -252,8 +246,6 @@
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    padding-left:88px;
-    
 }
 
 
@@ -283,7 +275,7 @@
 
 .service-area {
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 25px 0px;
 }
 
@@ -294,14 +286,15 @@
     height: 400px;
 }
 
-.service-img img{
+.service-img img {
     width: 100%;
     height: 100%;
-   
+    object-fit: cover;
 }
 
 .service-img:hover .service-text{
     transform: translateY(0);
+    /* transform: scale(0); */
 }
 
 .service-text{
@@ -365,21 +358,16 @@
     width: 100%;
 }
 
-
-
-
-
-
-
 .mailbox-text {
     padding-top: 45px;
+    padding-left: 8% !important;
 }
+
 .mailbox-text h3{
     font-family: Open Sans;
     font-weight: 700;
     color: #1B1D58;
     font-size: 40px;
-    padding-left: 50px;
 }
 
 
@@ -388,7 +376,7 @@
     font-weight: 600 !important;
     color: #1B1D58 !important;
     font-size: 20px !important;
-    padding: 10px 0px;
+
 }
 
 .mailbox-text p{
@@ -397,7 +385,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    padding-left: 50px;
 }
 
 
@@ -415,7 +402,10 @@
     position: relative;
 }
 
-.package-area img{
+.package-area-img {
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
 }
 
 
@@ -428,6 +418,11 @@
 
 .package-right-img{
     position: relative;
+}
+
+.package-right-img img{
+    width: 100%;
+    height: 350px;
 }
 
 .package-text {
@@ -457,13 +452,14 @@
 
 .package-from {
     background-color: #183650;
-    color:#FFFFFF;
+    color: #FFFFFF;
     width: 245px;
-    height: 41px;
+    height: 43px;
     padding: 10px;
     border-radius: 5px 0px 0px 5px;
     outline: none;
     border: none;
+    margin-right: -5px;
 }
 
 
@@ -474,10 +470,9 @@
     border: none;
     color: #1B1D58;
     font-family: Poppins;
-    height: 42px;
+    height: 45px;
     border-radius: 0px 5px 5px 0px;
     width: 90px;
-    margin-left: -5px;
 }
 
 
@@ -487,12 +482,11 @@
 
 .bg-color {
     background: #91E3D7;
-    height: 300px;
 }
 
 
 .company-img img {
-    padding-top: 110px;
+    padding: 4%;
 }
 
 
@@ -501,15 +495,14 @@
     position: relative;
 }
 
-.company-map::before{
-    position:absolute;
+.company-map::before {
+    position: absolute;
     content: "";
     top: 0;
     background: #183650BF;
     opacity: 75%;
     width: 100%;
     height: 400px;
-
 }
 
 
@@ -542,7 +535,7 @@
 /* from */
 
 .fast-from {
-    width: 35%;
+    width: 34%;
     height: 35px;
     border: 1px solid #1C4980;
     border-radius: 5px;
@@ -607,8 +600,9 @@
 .bg-color2{
     background: #102334;
     width: 100%;
-    height: 500px;
 }
+
+
 
 .footer-left h3 {
     font-family: Open Sans;
@@ -634,8 +628,9 @@
     border-radius: 5px 0px 0px 5px;
     border: none;
     outline: none;
-    margin-right: -4px;
+    margin-right: -6px;
     padding: 14px;
+    margin-top: -5px;
 }
 
 .footer-btn {
@@ -672,7 +667,6 @@
 .bg-color3{
     background: #8AF3E3;
     width: 100%;
-    height: 85px;
 }
 
 
@@ -682,6 +676,7 @@
     padding-top: 32px;
     font-family: Poppins;
     font-size: 16px;
+    text-align: center;
 }
 
 .footer-b-right p{
